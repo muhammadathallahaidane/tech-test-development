@@ -1,8 +1,7 @@
-const express = require("express")
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
+const controller = require("../controllers/controller")
 
-router.get('/', (req, res) => {
-  res.send('Test express routing')
-})
+router.post("/employee", controller.submitData);
 
-module.exports = router
+module.exports = router;
