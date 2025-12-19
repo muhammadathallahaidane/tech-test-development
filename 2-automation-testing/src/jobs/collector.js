@@ -24,10 +24,7 @@ const runCollector = () => {
   const usedMem = totalMem - freeMem;
 
   const toGB = (bytes) => (bytes / 1024 ** 3).toFixed(2);
-
-  // Hitung persentase pemakaian
   const usagePercent = ((usedMem / totalMem) * 100).toFixed(1);
-  // Isi CSV: ID, Waktu, Total RAM, Used RAM, Free RAM, % Usage
   const header =
     "timestamp,total_mem_gb,used_mem_gb,free_mem_gb,usage_percent\n";
   const dataRow = `${now.toISOString()},${toGB(totalMem)},${toGB(
