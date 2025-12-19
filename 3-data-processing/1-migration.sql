@@ -4,6 +4,6 @@ CREATE TABLE employees (
     position VARCHAR(100),
     join_date DATE,
     release_date DATE,
-    year_of_experience NUMERIC(4,1), -- Menggunakan numeric agar bisa simpan 2.5
+    year_of_experience NUMERIC(4,1),
     salary NUMERIC(15, 2)
 );
