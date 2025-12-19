@@ -52,6 +52,19 @@ class Controller {
       return res.status(500).json({ message: "Internal Server Error" });
     }
   }
+
+  static async getData(req, res) {
+    try {
+      return res.status(200).json({
+        message: "Data successfully retrieved",
+        data: db,
+        totalData: db.length,
+      });
+    } catch (error) {
+      console.error(error);
+      return res.status(500).json({ message: "Internal Server Error" });
+    }
+  }
 }
 
 module.exports = Controller;
