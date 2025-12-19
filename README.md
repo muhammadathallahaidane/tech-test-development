@@ -16,13 +16,13 @@ Pastikan Node.js (versi 14+) sudah terinstal.
 
 1. Instal Dependensi Backend:
    ```
-   cd backend-dev
+   cd 1-backend-development
    npm install
    ```
 
 2. Instal Dependensi Automation:
     ```
-   cd ../automation-testing
+   cd ../2-automation-testing
    npm install
     ```
 
