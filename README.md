@@ -6,9 +6,9 @@ Dokumen ini berisi solusi lengkap untuk Technical Test yang mencakup pengembanga
 
 Proyek ini dibagi menjadi tiga bagian utama sesuai dengan instruksi soal:
 
-- backend-dev/ : Solusi Untuk Soal No. 1 (Express.js API & Frontend).
-- automation-testing/ : Solusi Untuk Soal No. 2 (System Monitoring & Cron).
-- database-query/ : Solusi untuk Soal No. 3 (SQL Scripts berdasarkan data tabel).
+- 1-backend-development/ : Solusi Untuk Soal No. 1 (Express.js API & Frontend).
+- 2-automation-testing/ : Solusi Untuk Soal No. 2 (System Monitoring & Cron).
+- 3-data-processing/ : Solusi untuk Soal No. 3 (SQL Scripts berdasarkan data tabel).
 
 ## Persiapan dan Instalasi
 
